@@ -1,0 +1,24 @@
+font-family = "LiterationMono Nerd Font Mono"
+font-family = "Noto Color Emoji"
+
+font-size = 24
+
+quit-after-last-window-closed = false
+
+theme = "Gruvbox Dark"
+
+shell-integration = "bash"
+confirm-close-surface = false
+
+background-opacity = 0.9
+
+window-decoration = none
+
+cursor-style-blink = false
+
+window-width = 100
+window-height = 25
+
+copy-on-select = clipboard
+right-click-action = paste
+app-notifications = no-clipboard-copy

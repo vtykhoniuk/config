@@ -1,0 +1,89 @@
+/* Gruvbox Dark */
+
+/*@define-color bg #353C4A;*/
+@define-color light #D8DEE9;
+@define-color dark @nord_dark_font;
+@define-color warning #ebcb8b;
+/*@define-color critical #BF616A;*/
+/*@define-color mode @bg;*/
+/*@define-color workspaces @bg;*/
+/*@define-color workspaces @nord_dark_font;*/
+/*@define-color workspacesfocused #655b53;*/
+/*@define-color tray @bg;*/
+/*@define-color workspacesfocused #4C566A;
+@define-color tray @workspacesfocused;
+@define-color sound #EBCB8B;
+@define-color network #5D7096;
+@define-color memory #546484;
+@define-color cpu #596A8D;
+@define-color temp #4D5C78;
+@define-color layout #5e81ac;
+@define-color battery #88c0d0;
+@define-color date #434C5E;
+@define-color time #434C5E;
+@define-color backlight #434C5E;*/
+@define-color nord_bg #282828;
+@define-color nord_bg_blue @bg;
+@define-color nord_light #D8DEE9;
+
+@define-color nord_dark_font #272727;
+
+
+@define-color bg #282828;
+@define-color critical #BF616A;
+@define-color tray @bg;
+@define-color mode @bg;
+
+@define-color bluetint #448488;
+@define-color bluelight #83a597;
+@define-color magenta-dark #b16185;
+
+
+@define-color font_gruv_normal #ebdbb2;
+@define-color font_gruv_faded #a89985;
+@define-color font_gruv_darker #D8DEE9;
+@define-color font_dark_alternative #655b53;
+
+* {
+    border: none;
+    border-radius: 0px;
+    min-height: 0;
+}
+
+#waybar {
+    background: @bg;
+    color: @font_gruv_normal;
+    font-family: mono;
+    font-size: 24pt;
+}
+
+#clock,
+#cpu,
+#language,
+#network,
+#wirepluber,
+#tray {
+    padding-left: 1em;
+    /*
+    padding-right: 0.3em;
+    padding-top: 0.2em;
+    padding: 0.6em 0.8em;*/
+}
+
+#language {
+    padding-left: 1em;
+}
+
+#workspaces button {
+    padding: 0 0.5em;
+    color: @font_gruv_normal;
+}
+
+#workspaces button.active {
+    background-color: #d65d0e;
+}
+
+/*
+ * window#waybar { background: transparent; }
+ *
+ */

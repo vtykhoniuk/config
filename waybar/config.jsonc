@@ -1,0 +1,52 @@
+{
+    "layer": "top",
+    "width": 2000,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["wireplumber", "cpu", /*"network",*/ "tray", "hyprland/language"],
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "*": [1, 2, 3, 4]
+        },
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "sort-by-number": true,
+        "active-only": false
+    },
+    "clock": {
+        "format": "  {:%a %d, %b   %H:%M}"
+    },
+    "cpu": {
+        "interval": 2,
+        "format": " {usage}%",
+        "max-length": 10
+    },
+    "hyprland/language": {
+        "format-en": "🇺🇲",
+        "format-ru": "🇺🇦"
+    },
+    /*
+    "network": {
+        "interface" : "eno3",
+        "interval" : 1,
+        "format": "󰛶 {bandwidthUpBits} 󰛴 {bandwidthDownBits}",
+        "min-length": 24
+    },
+    */
+    "wireplumber": {
+        "format": " {volume}%",
+        "format-muted": "󰖁",
+        "on-click": "helvum",
+        "scroll-step": 2
+    },
+    "tray": {
+        "spacing": 10,
+        "icon-size": 26
+    }
+}

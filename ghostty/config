@@ -2,6 +2,9 @@ font-family = "LiterationMono Nerd Font Mono"
 font-family = "Noto Color Emoji"
 
 font-size = 24
+font-thicken = true
+font-thicken-strength = 1
+adjust-cell-height = 1
 
 quit-after-last-window-closed = false
 
@@ -10,7 +13,7 @@ theme = "Gruvbox Dark"
 shell-integration = "bash"
 confirm-close-surface = false
 
-background-opacity = 0.9
+background-opacity = 0.8
 
 window-decoration = none
 

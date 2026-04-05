@@ -13,14 +13,14 @@
         "format-icons": {
             "1": "",
             "2": "",
-            "3": "",
+            "3": "󰟞",
             "4": ""
         },
         "sort-by-number": true,
         "active-only": false
     },
     "clock": {
-        "format": "  {:%a %d, %b   %H:%M}"
+        "format": "   {:%a %d, %b   %H:%M}"
     },
     "cpu": {
         "interval": 2,
@@ -29,7 +29,8 @@
     },
     "hyprland/language": {
         "format-en": "🇺🇲",
-        "format-ru": "🇺🇦"
+        "format-ru": "🇺🇦",
+        "on-click": "hyprctl switchxkblayout keychron--keychron-link--keyboard next"
     },
     /*
     "network": {
@@ -40,7 +41,7 @@
     },
     */
     "wireplumber": {
-        "format": " {volume}%",
+        "format": "  {volume}%",
         "format-muted": "󰖁",
         "on-click": "helvum",
         "scroll-step": 2

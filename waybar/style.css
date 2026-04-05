@@ -48,13 +48,13 @@
     border: none;
     border-radius: 0px;
     min-height: 0;
+    font-family: "Radio Canada Big:style=SemiBold";
 }
 
 #waybar {
     background: @bg;
     color: @font_gruv_normal;
-    font-family: mono;
-    font-size: 24pt;
+    font-size: 22pt;
 }
 
 #clock,

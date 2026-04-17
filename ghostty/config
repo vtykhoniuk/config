@@ -13,7 +13,8 @@ theme = "Gruvbox Dark"
 shell-integration = "bash"
 confirm-close-surface = false
 
-background-opacity = 0.8
+background-opacity = 0.95
+background-blur = true
 
 window-decoration = none
 
